@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[pipenv]
+allow_prereleases = false
+
+[dev-packages]
+
+[packages]
+pytest = "==5.4.3"
+pyhamcrest = "==2.0.2"
+allure-pytest = "==2.8.16"
+pytest-xdist = "==1.32.0"
+pipfile = "==0.0.2"
+webdriver_manager = "==3.4.2"
+selenium = "==3.141.0"
+Appium-Python-Client = "==1.0.2"
+
+[requires]
+python_version = "3.7"
